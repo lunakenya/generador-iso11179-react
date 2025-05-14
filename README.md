@@ -46,10 +46,10 @@ npm run dev
 
 📄 Uso del sistema
 
-    - Ingresar o subir un caso para análisis.
+- Ingresar o subir un caso para análisis.
 
-    - Elegir tipo de análisis: manual, IA o comparación.
+- Elegir tipo de análisis: manual, IA o comparación.
 
-    - Visualizar auditoría, observaciones y calificación final.
+- Visualizar auditoría, observaciones y calificación final.
 
-    - Descargar informe en PDF.
+- Descargar informe en PDF.
