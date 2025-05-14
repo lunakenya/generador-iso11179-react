@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Vite
+.vite/
+
+# Local env files
+.env.local
+.env.*.local
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+*.bak
+*.tmp
+
+# Optional: Next.js or SSR projects
+.next/
+out/
+
+# Optional: Testing and coverage
+coverage/
+*.lcov
+
+# Optional: macOS/iOS
+__MACOSX/
+
+# Optional: JetBrains IDEs
+*.iml
+*.iws
+*.ipr
