@@ -1,12 +1,55 @@
-# React + Vite
+# 🧠 Generador de ISO11179
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web educativa que utiliza inteligencia artificial para generar y analizar casos de estudio sobre la norma **ISO/IEC 11179** (Gestión de Metadatos y Datos Maestros). Desarrollada con **React + Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generación automática de auditorías según ISO/IEC 11179
+- Comparación entre análisis humano vs IA
+- Calificación porcentual de coincidencia entre ambos enfoques
+- Exportación de resultados en PDF con formato profesional
+- Interfaz moderna y responsiva
+- Pronto: carga de casos en PDF y chatbot educativo integrado
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/)
+- [OpenAI / Gemini API](https://ai.google/discover/gemini/) *(según implementación)*
+
+## 📦 Instalación
+
+
+# Clona el repositorio
+```
+git clone https://github.com/tu-usuario/generador-iso11179-react.git
+```
+```
+cd generador-iso11179-react
+```
+
+# Instala dependencias
+```
+npm install
+```
+
+# Inicia el servidor de desarrollo y vite 
+```
+node server.cjs
+```
+
+```
+npm run dev
+```
+
+📄 Uso del sistema
+
+    - Ingresar o subir un caso para análisis.
+
+    - Elegir tipo de análisis: manual, IA o comparación.
+
+    - Visualizar auditoría, observaciones y calificación final.
+
+    - Descargar informe en PDF.
