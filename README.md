@@ -44,8 +44,7 @@ node server.cjs
 npm run dev
 ```
 
-
-📄 Uso del sistema
+# 📄 Uso del sistema
 
 - Ingresar o subir un caso para análisis.
 - Elegir tipo de análisis: manual, IA o comparación.
